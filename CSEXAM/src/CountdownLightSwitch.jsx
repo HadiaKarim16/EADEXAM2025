@@ -34,10 +34,32 @@ function LightSwitcher(){
         <div className="progress-bar">
         <div className="progress" style={{ width: `${(timeLeft / 30) * 100}%` }}></div>
         </div>
-        
-        
-        </div>
+        <style>
+  {`
+    .container {
+      text-align: center;
+      padding: 20px;
+    }
+    .light {
+      background-color: white;
+      color: black;
+    }
+    .dark {
+      background-color: black;
+      color: white;
+    }
+    button {
+      padding: 5px 10px;
+      margin: 10px;
+      border: 1px solid black;
+      background-color: lightgray;
+      cursor: pointer;
+    }
+    
+     `}
+    </style>
 
+    </div>
 
 
     );

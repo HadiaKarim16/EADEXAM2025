@@ -11,6 +11,8 @@ function App() {
     <>
       <div className='LightSwitcher'>
         <LightSwitcher/>
+
+        
         
        </div> 
        

@@ -24,8 +24,13 @@ function LightSwitcher(){
 
     return(
         
-    <div>
-
-    </div>
+        <div className={`container ${isDarkMode ? "dark" : "light"}`}>
+            <h1>Countdown Light Switch</h1>
+        
+        <button onClick={toggleTheme}>
+        Switch to {isDarkMode ? "Light" : "Dark"} Mode
+        </button>
+        </div>
     );
 }
+export default LightSwitcher;

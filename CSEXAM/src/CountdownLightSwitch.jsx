@@ -30,7 +30,16 @@ function LightSwitcher(){
         <button onClick={toggleTheme}>
         Switch to {isDarkMode ? "Light" : "Dark"} Mode
         </button>
+        <h2>Time Left: {timeLeft} seconds</h2>
+        <div className="progress-bar">
+        <div className="progress" style={{ width: `${(timeLeft / 30) * 100}%` }}></div>
         </div>
+        
+        
+        </div>
+
+
+
     );
 }
 export default LightSwitcher;
